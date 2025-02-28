@@ -23,6 +23,6 @@ public class CustomErrorController implements ErrorController {
                 return "404"; // Retorna a página 404.html
             }
         }
-        return "error"; // Para outros erros, você pode criar uma página genérica "error.html"
+        return "404";
     }
 }
